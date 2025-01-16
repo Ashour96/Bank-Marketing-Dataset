@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-uploaded_file = r'F:\Amit Machine Learning\Projects\Bank Marketing Dataset\Final Data.csv'  # Replace with your uploaded file path
+uploaded_file = 'Final Data.csv'  # Replace with your uploaded file path
 data = pd.read_csv(uploaded_file)
 
 st.title("Bank Marketing Dataset")
